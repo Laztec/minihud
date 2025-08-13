@@ -14,7 +14,7 @@ import fi.dy.masa.malilib.util.data.Color4f;
 
 public abstract class ShapeCircleBase extends ShapeBlocky
 {
-    private static final double DEFAULT_MAX_RADIUS = 1024.0;
+    private static final double DEFAULT_MAX_RADIUS = 1000000.0;
 
     protected Direction mainAxis = Direction.UP;
     private double maxRadius = DEFAULT_MAX_RADIUS;
